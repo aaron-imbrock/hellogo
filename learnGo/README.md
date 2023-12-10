@@ -26,3 +26,12 @@ Created Dec 09, 2023 by Aaron Imbrock.
 - `go build ch01/hello.go` - Compiles executable called `hello`.
 - `go build -o hello_world ch01/hello.go` - Compiles `hello.go` into executable `hello_world`.
 
+## Go Third-Party Tools
+
+`go install github.com/rakyll/hey@latest`
+
+```bash
+GOPATH defaults to $HOME/go/bin
+Installs `hey` to $GOPATH/bin
+```
+
