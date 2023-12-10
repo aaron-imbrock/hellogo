@@ -19,7 +19,7 @@ $ go run hello-world.go
 hello world
 ```
 
-Sometimes we’ll want to build our programs into binaries. We can do this using `go build``.
+Sometimes we’ll want to build our programs into binaries. We can do this using `go build`.
 
 ```bash
 $ go build hello-world.go
