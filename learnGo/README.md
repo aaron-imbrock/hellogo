@@ -26,6 +26,19 @@ Created Dec 09, 2023 by Aaron Imbrock.
 - `go build ch01/hello.go` - Compiles executable called `hello`.
 - `go build -o hello_world ch01/hello.go` - Compiles `hello.go` into executable `hello_world`.
 
+### Go Formatting
+
+- `go fmt` - automatically reformats your code to match the standard format.
+- Official Third-party format tool: `goimports -l -w .`
+```linux
+$ goimports -l -w .
+-l - flag prints files w/ incorrect formatting to the console.
+-w - flag tells goimports to modify the files in place.
+.  - everything in the currect directory and all subdirectories.
+```
+
+To Install: `go install golang.org/x/tools/cmd/goimports@latest`
+
 ## Go Third-Party Tools
 
 `go install github.com/rakyll/hey@latest`
