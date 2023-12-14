@@ -14,9 +14,9 @@ func Sqrt(x float64) float64 {
 	n := 0
 	for i := 0; i < 100; i++ {
 		z -= (z*z - x) / (2 * z)
-		if (z*z > x) {
+		if z*z > x {
 			z -= 0.00001
-		} 
+		}
 	}
 	fmt.Printf("We took %v times to guess %v\n", n, z)
 	return z
